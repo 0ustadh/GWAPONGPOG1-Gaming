@@ -1,0 +1,61 @@
+/* Submenu logo */
+ .fa-edge{font-size:2rem;color:red;padding-right:0.5rem}
+/* Submenu logo end */
+  
+/* Blog part style */
+#blogs {color:#FFF;background:url("gamers.webp");
+    padding: 12rem 0 9rem 0;
+    text-align:center;
+}
+  #blogs .container{filter: brightness(150%)}
+/* Carousel styles */
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+.carousel-inner{
+    display:grid;
+    grid-template-columns: auto auto;
+    justify-content:center;
+}
+.item img{height:50%;width:50%;opacity:90%}
+/* Carousel styles end */
+/* Blog part style end */
+
+/* Customer reviews */
+#feedback .container p {margin: 0 0 0.5rem 0;font-size:2.4rem}
+#feedback .container cite {font-size:1.6rem;font-style:italic}  
+#feedback .container cite:before {content:'–';margin-right:0.5rem}
+#feedback{background:url("members.jpg")}
+.container-grid .item{
+    background: rgba(255,255,255,0.25);
+    box-shadow: 0.2rem 0.3rem solid #555;
+    margin-top: 2rem;
+  }
+  /*
+.container-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-auto-columns:auto;
+    gap: 1rem;
+    padding: 10%;
+}
+*/
+@media all and (max-width: 767px){
+  .container-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-columns:auto;
+    gap: 1rem;
+    padding: 10%;
+  }
+  }
+/* Customer reviews end */
+
+/* Games section */
+#games{background:url("apps_and_games_edited.jpg")}
+#games .container{color:white}
+/* Games section end */
+
+#perks{color:white;background:url(perks.jpg)}

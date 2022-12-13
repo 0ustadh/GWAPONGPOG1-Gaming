@@ -1,0 +1,9 @@
+/* Modal logo */
+.modal-content{margin:20%;padding:3%}
+.modal-content img{position:relative;margin-left:40%;margin-bottom:5%}
+/* Modal logo end */
+/* Links */
+.modal-header a{text-align:center;display:block;margin:1.5%}
+.links a:first-child{background-color:#3B5998}
+.links a:last-child{background-color:white;color:black}
+/* Links end */
